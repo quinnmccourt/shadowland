@@ -1,7 +1,6 @@
 .news-stub {
   display: flex;
   height: 100%;
-  margin: 0;
   max-height: 20rem;
   max-width: 20rem;
   border: 1rem outset rgb(109, 104, 156);
@@ -12,7 +11,10 @@
 } 
 
 .news-stub {
-  margin: auto 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
   text-align: center;
 }
 img {

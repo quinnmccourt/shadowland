@@ -2,11 +2,29 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    display: inline-block;
 }
 
 .wrapper {
     text-align: center;
     padding-top: 10rem;
     padding-bottom: 10rem;
+    align-self: center;
+}
+
+.sidebar {
+    background-color: #0D0D0D;
+    width: 30rem;
+    color: rgb(0, 189, 0);
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.master-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sidebar > div {
+  font-size: 2rem;
 }
